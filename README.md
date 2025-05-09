@@ -8,7 +8,7 @@ The author assumes no responsibility for any misuse, damage, or legal consequenc
 # Features
 1. Captures keystrokes in real-time
 2. Supports logging of special keys like Enter, Backspace, etc.
-3. Saves logs to a file (e.g "keys.txt")
+3. Saves logs to a file (e.g `inputs.txt`) every minute
 
 # Requirements
 1. Python 3.x
@@ -16,7 +16,7 @@ The author assumes no responsibility for any misuse, damage, or legal consequenc
     - Install via: 
     ```bash
      pip install pynput
-     ```
+    ```
 
 # Usage
 1. Clone the repository:
@@ -24,7 +24,9 @@ The author assumes no responsibility for any misuse, damage, or legal consequenc
     git clone https://github.com/Donovan2569/Key-Logger.git
     cd key-logger
     ```
-2. Run the keylogger
-    - python keylogger.py
-3. Check the output file
-    - When 'esc' is pressed all inputs will be dumped into 'keys.txt'
+2. Run the keylogger:
+    ```bash
+    python keylogger.py
+    ```
+3. Check the output file:
+    - All inputs will be dumped into `inputs.txt` every minute.
